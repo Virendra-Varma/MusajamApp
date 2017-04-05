@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="@drawable/ractangle_bg"
+    android:layout_marginTop="@dimen/space_small"
+    android:layout_marginLeft="@dimen/space_medium"
+    android:layout_marginRight="@dimen/space_medium"
+    android:layout_height="wrap_content">
+  <LinearLayout
+      android:id="@+id/itemProject"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/txtProjectName"
+        android:layout_width="match_parent"
+        android:padding="@dimen/space_small"
+        android:textSize="@dimen/titleSize"
+        android:text="Project Title"
+        android:textColor="@color/colorPrimary"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/txtPleadge"
+        android:layout_width="match_parent"
+        android:padding="@dimen/space_small"
+        android:text="Pledged"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/txtBackers"
+        android:layout_width="match_parent"
+        android:padding="@dimen/space_small"
+        android:text="Backers"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/txtNoOfDays"
+        android:layout_width="match_parent"
+        android:padding="@dimen/space_small"
+        android:text="No Of Days To Go"
+        android:layout_height="wrap_content"/>
+  </LinearLayout>
+</android.support.v7.widget.CardView>

@@ -1,0 +1,12 @@
+<resources>
+  <string name="app_name">MusajamReactApp</string>
+  <string name="search">Search by name</string>
+  <string name="sortBy">Sort by</string>
+  <string name="sortByTime">Sort ty time</string>
+  <string name="sortByAlphabetically">Sort by alphabetically</string>
+  <string name="filter">Set Filter</string>
+  <string name="enterNoBackers">Enter no of backers</string>
+  <string name="go">Go</string>
+  <string name="sort">Sort</string>
+  <string name="fil">Filter</string>
+</resources>

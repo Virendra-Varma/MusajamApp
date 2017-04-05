@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.viru.musajamreactapp.ui.SplashScreen">
+
+
+  <ImageView
+      android:id="@+id/logo"
+      android:layout_width="wrap_content"
+      android:src="@drawable/logo64"
+      android:layout_centerInParent="true"
+      android:layout_height="wrap_content"/>
+
+
+  <TextView
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="MUSAJAM"
+      android:textStyle="bold"
+      android:layout_below="@id/logo"
+      android:layout_marginTop="@dimen/space_small"
+      android:layout_centerHorizontal="true"
+      android:textSize="@dimen/xtitleSize"
+      android:textColor="#EA5E4D"
+      android:gravity="center"/>
+
+</RelativeLayout>

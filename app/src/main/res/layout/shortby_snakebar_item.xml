@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="wrap_content">
+
+  <TextView
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:padding="@dimen/space_small"
+      android:textColor="@color/colorPrimary"
+      android:textStyle="bold"
+      android:text="@string/sortBy"/>
+  <View
+      android:layout_width="match_parent"
+      android:layout_height="0.5dp"
+      android:background="@color/colorPrimary"/>
+
+  <RelativeLayout
+      android:id="@+id/sortByAlphabetically"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:padding="@dimen/space_small"
+        android:textColor="@color/colorPrimary"
+        android:layout_height="wrap_content"
+        android:text="@string/sortByAlphabetically"/>
+
+    <RadioButton
+        android:id="@+id/rbByAlpha"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingEnd="@dimen/space_small"
+        android:paddingStart="0dp"
+        android:buttonTint="@color/colorPrimary"
+        android:clickable="false"
+        android:layout_alignParentEnd="true"/>
+  </RelativeLayout>
+  <RelativeLayout
+      android:id="@+id/sortByTime"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:padding="@dimen/space_small"
+        android:textColor="@color/colorPrimary"
+        android:layout_height="wrap_content"
+        android:text="@string/sortByTime"/>
+
+    <RadioButton
+        android:id="@+id/rbByTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingEnd="@dimen/space_small"
+        android:buttonTint="@color/colorPrimary"
+        android:paddingStart="0dp"
+        android:clickable="false"
+        android:layout_alignParentEnd="true"/>
+  </RelativeLayout>
+
+
+</LinearLayout>
